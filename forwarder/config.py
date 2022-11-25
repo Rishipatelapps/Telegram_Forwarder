@@ -1,4 +1,4 @@
-if not __name__.endswith("sample_config"):
+if not __name__.endswith("config"):
     import sys
 
     print(
@@ -15,12 +15,12 @@ class Config(object):
     REMOVE_TAG = False
 
     # REQUIRED
-    API_KEY = "617722711:AAHysCHsVcQja6LOlHa88101lKjrxez80-M"  # API key obtained from BotFather
-    OWNER_ID = "582884567"  # If you dont know, run the bot and do /id in your private chat with the bot
+    API_KEY = "5861948861:AAF9gYKrHH6nNnvieqTntyo0HVHk2pV0tHg"  # API key obtained from BotFather
+    OWNER_ID = "5196999219"  # If you dont know, run the bot and do /id in your private chat with the bot
 
     # FOR AUTOMATICALLY FORWARDING MESSAGES
-    FROM_CHATS = [-1001234704297]  # List of chat id's to forward messages from
-    TO_CHATS = [-1001128355490]  # List of chat id's to forward messages to
+    FROM_CHATS = [-1331531312]  # List of chat id's to forward messages from
+    TO_CHATS = [-592713900]  # List of chat id's to forward messages to
 
     # FOR WEBHOOKS
     WEBHOOK = False
